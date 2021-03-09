@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'signatura_monoline_scriptRg';
+  src: url('http://joseph-mcdonough.com/fonts/signatura_monoline-webfont.woff2') format('woff2'),
+  url('http://joseph-mcdonough.com/fonts/signatura_monoline-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body{
+  margin: 0;
+}
+
+header{
+  position: fixed;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.bckg1{
+  background-image: url('../img/bckg1.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 1077px;
+  width: 100%;
+}
+
+.bckg1 h1{
+  margin: 0;
+  padding-top: 20%;
+}
+
+header h1{
+  font-family: signatura_monoline_scriptRg, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
