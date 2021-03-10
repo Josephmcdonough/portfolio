@@ -12,14 +12,34 @@
 </head>
 
 <body>
-<h1>Contact</h1>
-<form method="post">
-    <label>Email</label>
-    <input type="email" name="email" required><br>
-    <label>Message</label>
-    <textarea name="message" required></textarea><br>
-    <input type="submit">
-</form>
+<header>
+    <a href="">A propos</a>
+    <h1>Joseph McDonough</h1>
+    <a href="contact.php">Me contacter</a>
+</header>
+<div class="bckg1">
+    <h1 class="contactitle">Contact</h1>
+    <form method="post">
+        <label>
+            <textarea placeholder="Nom" name="nom" required></textarea>
+        </label>
+        <br>
+        <label>
+            <textarea placeholder="Prénom" name="prenom" required></textarea>
+        </label>
+        <br>
+        <label>
+            <input placeholder="Email" type="email" name="email" required>
+        </label>
+        <br>
+        <label>
+            <textarea placeholder="Message" name="message" required></textarea>
+        </label>
+        <br>
+        <input type="submit">
+    </form>
+    <a class="retour" href="index.html"> >> Retourner sur le site</a>
+</div>
 <?php
 if (isset($_POST['message'])) {
     $position_arobase = strpos($_POST['email'], '@');
@@ -34,5 +54,15 @@ if (isset($_POST['message'])) {
     }
 }
 ?>
+
+<script>
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >= 100) {
+            $('header').css('background','#EEEEEE');
+        } else {
+            $('header').css('background','transparent');
+        }
+    });
+</script>
 </body>
 </html>

@@ -4,6 +4,10 @@
     <list default="true" id="7be008be-1c3c-47a7-98a7-8895ca356b72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,7 @@
       <updated>1614359804518</updated>
       <workItem from="1614359805565" duration="4258000" />
       <workItem from="1614764201843" duration="18314000" />
-      <workItem from="1615385705782" duration="83000" />
+      <workItem from="1615385705782" duration="4603000" />
     </task>
     <task id="LOCAL-00001" summary="initial files">
       <created>1615308448640</created>
@@ -144,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615385581556</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="form">
+      <created>1615386075533</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615386075533</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,10 +178,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615336842230" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1615385581040">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1615386074857">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615385581040" />
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615386074857" />
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1615308447874" />
     <state x="310" y="119" key="EditFileWatcherDialog" timestamp="1615328880912">
       <screen x="0" y="0" width="1280" height="680" />
@@ -184,10 +195,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615328881936" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615385583939">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615386078206">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615385583939" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615386078206" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615308551622" />
     <state x="478" y="74" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615335841983">
       <screen x="0" y="0" width="1280" height="680" />
