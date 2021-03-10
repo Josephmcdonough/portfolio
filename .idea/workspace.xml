@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be008be-1c3c-47a7-98a7-8895ca356b72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon_io.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maquette/imgmaquette/christopher-gower-m_HRfLhgABo-unsplash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maquette/imgmaquette/christopher-gower-m_HRfLhgABo-unsplash_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maquette/maquette.xd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgmaquette/christopher-gower-m_HRfLhgABo-unsplash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgmaquette/christopher-gower-m_HRfLhgABo-unsplash_2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maquette.xd" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614359804518</updated>
       <workItem from="1614359805565" duration="4258000" />
-      <workItem from="1614764201843" duration="16418000" />
+      <workItem from="1614764201843" duration="18262000" />
     </task>
     <task id="LOCAL-00001" summary="initial files">
       <created>1615308448640</created>
@@ -146,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615382020229</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="styles">
+      <created>1615382744517</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615382744517</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,10 +159,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615336842230" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1615382019577">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1615382743872">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615382019577" />
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615382743872" />
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1615308447874" />
     <state x="310" y="119" key="EditFileWatcherDialog" timestamp="1615328880912">
       <screen x="0" y="0" width="1280" height="680" />
@@ -185,10 +176,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615328881936" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615382023698">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615382747428">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615382023698" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615382747428" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615308551622" />
     <state x="478" y="74" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615335841983">
       <screen x="0" y="0" width="1280" height="680" />
