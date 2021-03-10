@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+$thetransition: all .25s cubic-bezier(1,.25,0,.75) 0s;
+
 body{
   margin: 0;
+  font-family: "Open Sans Light", sans-serif;
 }
 
 header{
@@ -21,6 +30,10 @@ a{
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
 }
 
 header h1{
@@ -58,8 +71,8 @@ body > header > a:nth-child(3){
 .text{
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  margin-top: 250px;
-  margin-bottom: 35%;
+  margin-top: 30vh;
+  margin-bottom: 1.5em;
   font-size: 4em;
   color: #000CB5;
 
@@ -67,4 +80,32 @@ body > header > a:nth-child(3){
 
 .dud{
   color: #757575;
+}
+
+.bckg1 a{
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
+  position: relative;
+  margin-bottom: 55vh;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #000CB5;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: $thetransition;
+    transition: $thetransition;
+  }
+  &:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
 }

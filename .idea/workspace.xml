@@ -4,7 +4,9 @@
     <list default="true" id="7be008be-1c3c-47a7-98a7-8895ca356b72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sujet A1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../infomaniak" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="C:\Users\josep\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\202.6948.87\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -58,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614359804518</updated>
       <workItem from="1614359805565" duration="4258000" />
-      <workItem from="1614764201843" duration="13001000" />
+      <workItem from="1614764201843" duration="15140000" />
     </task>
     <task id="LOCAL-00001" summary="initial files">
       <created>1615308448640</created>
@@ -109,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615339199503</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="styles">
+      <created>1615339505239</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615339505239</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +128,8 @@
     <MESSAGE value="initial files" />
     <MESSAGE value="first changes" />
     <MESSAGE value="babel setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="babel setup" />
+    <MESSAGE value="styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="styles" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="46" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1615328866079">
@@ -130,27 +140,27 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615336842230" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1615339198981">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1615339504795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615339198981" />
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615339504795" />
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1615308447874" />
     <state x="310" y="119" key="EditFileWatcherDialog" timestamp="1615328880912">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="310" y="119" key="EditFileWatcherDialog/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615328880912" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1615328852562">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1615339749352">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615328852562" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615339749352" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1615328881936">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615328881936" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615339246615">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615339514196">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615339246615" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615339514196" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615308551622" />
     <state x="478" y="74" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615335841983">
       <screen x="0" y="0" width="1280" height="680" />
