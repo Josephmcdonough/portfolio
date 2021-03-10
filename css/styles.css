@@ -1,15 +1,12 @@
-@font-face {
-  font-family: "signatura_monoline_scriptRg";
-  src: url("http://joseph-mcdonough.com/fonts/signatura_monoline-webfont.woff2") format("woff2"), url("http://joseph-mcdonough.com/fonts/signatura_monoline-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 body {
   margin: 0;
 }
 
 header {
   position: fixed;
+  display: flex;
+  width: 100%;
 }
 
 a {
@@ -21,7 +18,7 @@ a {
   background-image: url("../img/bckg1.png");
   background-position: top;
   background-repeat: no-repeat;
-  height: 1077px;
+  height: 100%;
   width: 100%;
 }
 
@@ -31,9 +28,26 @@ a {
 }
 
 header h1 {
-  font-family: signatura_monoline_scriptRg, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-family: "Allura", cursive;
+  font-weight: lighter;
+  font-size: 2.5em;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+header a {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 1.5em;
+  margin-top: 15px;
+}
+
+body > header > a:nth-child(1) {
+  margin-left: auto;
+}
+
+body > header > a:nth-child(3) {
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
