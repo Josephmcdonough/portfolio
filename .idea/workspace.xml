@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be008be-1c3c-47a7-98a7-8895ca356b72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/text.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -45,6 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sujet A1" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="C:\Users\josep\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\202.6948.87\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614359804518</updated>
       <workItem from="1614359805565" duration="4258000" />
-      <workItem from="1614764201843" duration="9082000" />
+      <workItem from="1614764201843" duration="9778000" />
     </task>
     <task id="LOCAL-00001" summary="initial files">
       <created>1615308448640</created>
@@ -79,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615330210886</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="babel setup">
+      <created>1615335793888</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615335793888</updated>
+    </task>
+    <task id="LOCAL-00005" summary="babel setup">
+      <created>1615335847800</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615335847800</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,17 +106,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial files" />
     <MESSAGE value="first changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="first changes" />
+    <MESSAGE value="babel setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="babel setup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="46" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1615328866079">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="46" key="#com.intellij.ide.macro.MacrosDialog/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615328866079" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1615330210303">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1615335847408">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615330210303" />
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615335847408" />
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1615308447874" />
     <state x="310" y="119" key="EditFileWatcherDialog" timestamp="1615328880912">
       <screen x="0" y="0" width="1280" height="680" />
@@ -112,11 +131,15 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615328881936" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615330212852">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615335850678">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615330212852" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615335850678" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615308551622" />
+    <state x="478" y="74" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615335841983">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="478" y="74" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615335841983" />
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615308540081">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
