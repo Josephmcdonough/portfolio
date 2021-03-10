@@ -68,7 +68,7 @@ body > header > a:nth-child(3) {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   margin-top: 30vh;
-  margin-bottom: 1.5em;
+  margin-bottom: 30vh;
   font-size: 4em;
   color: #000CB5;
 }
@@ -82,7 +82,7 @@ body > header > a:nth-child(3) {
   font-size: 2em;
   color: black;
   position: relative;
-  margin-bottom: 55vh;
+  margin-bottom: 27vh;
 }
 .bckg1 a:before {
   content: "";
