@@ -1,17 +1,69 @@
-/* Error: expected "{".
- *    ,
- * 67 |             color #757575
- *    |                          ^
- *    '
- *   styles.scss 67:26  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 67 \2502              color #757575\a    \2502                           ^\a    \2575 \a   styles.scss 67:26  root stylesheet';
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+body {
+  margin: 0;
 }
+
+header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.bckg1 {
+  background-image: url("../img/bckg1.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+header h1 {
+  font-family: "Allura", cursive;
+  font-weight: lighter;
+  font-size: 2.5em;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+header a {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 1.5em;
+  margin-top: 15px;
+}
+
+body > header > a:nth-child(1) {
+  margin-left: auto;
+}
+
+body > header > a:nth-child(3) {
+  margin-right: auto;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  margin-top: 250px;
+  margin-bottom: 400px;
+  font-size: 4em;
+  color: #000CB5;
+}
+
+.dud {
+  color: #757575;
+}
+
+/*# sourceMappingURL=styles.css.map */
