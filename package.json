@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josephmcdonough/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Josephmcdonough/portfolio/issues"
+  },
+  "homepage": "https://github.com/Josephmcdonough/portfolio#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10"
+  },
+  "scripts": {
+    "build": "babel src -d js",
+    "watch": "babel src -d js --watch --source-maps"
+  }
+}
