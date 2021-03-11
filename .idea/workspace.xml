@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7be008be-1c3c-47a7-98a7-8895ca356b72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/jpo-iutbm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pollspatiale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/univities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/envelope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/genius-mieux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/indiglu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/killu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/moi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/strasbalade_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/téléchargement.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maquette/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
@@ -68,7 +79,7 @@
       <updated>1614359804518</updated>
       <workItem from="1614359805565" duration="4258000" />
       <workItem from="1614764201843" duration="18314000" />
-      <workItem from="1615385705782" duration="16453000" />
+      <workItem from="1615385705782" duration="31070000" />
     </task>
     <task id="LOCAL-00001" summary="initial files">
       <created>1615308448640</created>
@@ -168,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615390632542</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="projets">
+      <created>1615456926587</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1615456926587</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +200,8 @@
     <MESSAGE value="styles" />
     <MESSAGE value="form" />
     <MESSAGE value="fin du formulaire" />
-    <option name="LAST_COMMIT_MESSAGE" value="fin du formulaire" />
+    <MESSAGE value="projets" />
+    <option name="LAST_COMMIT_MESSAGE" value="projets" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="46" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1615328866079">
@@ -193,10 +212,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615336842230" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1615390631976">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1615456925936">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615390631976" />
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615456925936" />
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1615308447874" />
     <state x="310" y="119" key="EditFileWatcherDialog" timestamp="1615328880912">
       <screen x="0" y="0" width="1280" height="680" />
@@ -210,10 +229,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615328881936" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615390635003">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615456930378">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615390635003" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615456930378" />
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1615308551622" />
     <state x="478" y="74" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615335841983">
       <screen x="0" y="0" width="1280" height="680" />
@@ -223,5 +242,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1615308540081" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1615483834347">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/6.-1080.1920.1040@0.0.1280.680" timestamp="1615483834347" />
   </component>
 </project>

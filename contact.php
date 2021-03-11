@@ -13,11 +13,11 @@
 
 <body>
 <header>
-    <a href="">A propos</a>
-    <a href="#">Mon CV</a>
-    <a href="contact.php">Me contacter</a>
+    <a href="index.html#presentation">A propos</a>
+    <a href="http://joseph-mcdonough.com/fichiers/CV_joseph_mcdonough.pdf" target="_blank">Mon CV</a>
+    <a href="index.html">Accueil</a>
 </header>
-<div class="bckg1">
+<div class="bckg1 bckgcontact">
     <h1 class="contactitle">Contact</h1>
     <form method="post">
         <label>
@@ -38,7 +38,6 @@
         <br>
         <input type="submit">
     </form>
-    <a class="retour" href="index.html"> >> Retourner sur le site</a>
 </div>
 <?php
 if (isset($_POST['message'])) {
@@ -54,6 +53,20 @@ if (isset($_POST['message'])) {
     }
 }
 ?>
+
+<footer>
+    <div class="reseauxfooter">
+        <a href="mailto:contact@joseph-mcdonough.com"><img src="img/envelope.png" height="512" width="512"
+                                                           alt="mailto"/></a>
+        <a href="https://github.com/Josephmcdonough"><img src="img/github.png" height="512" width="512" alt="git"/></a>
+        <a href="https://www.instagram.com/mcdonough_joseph/?hl=fr"><img src="img/instagram.png" height="512"
+                                                                         width="512" alt="insta"/></a>
+        <a href="https://genius.com/El_C0conut"><img src="img/genius-mieux.png"
+                                                     alt="genius"/></a>
+        <a href="https://www.linkedin.com/in/joseph-mcdonough-2451a01a3/"><img src="img/linkedin.png" height="512"
+                                                                               width="512" alt="linkedin"/></a>
+    </div>
+</footer>
 
 <script>
     $(window).scroll(function () {
