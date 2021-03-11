@@ -11,6 +11,7 @@ $thetransition: all .25s cubic-bezier(1,.25,0,.75) 0s;
 body{
   margin: 0;
   font-family: "Open Sans Light", sans-serif;
+  margin-bottom: 500px;
 }
 
 header{
@@ -18,11 +19,17 @@ header{
   display: flex;
   width: 100%;
   z-index: 3;
+  padding-bottom: 10px;
 }
 
 a{
   text-decoration: none;
   color: black;
+}
+
+a:hover{
+  color: black;
+  text-decoration: none;
 }
 
 .bckg1{
@@ -37,15 +44,6 @@ a{
   flex-flow: column;
 }
 
-header h1{
-  font-family: 'Allura', cursive;
-  font-weight: lighter;
-  font-size: 2.5em;
-  margin-top: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 header a{
   font-family: "Open Sans Light", sans-serif;
   font-size: 1.5em;
@@ -54,6 +52,33 @@ header a{
 
 body > header > a:nth-child(1){
   margin-left: auto;
+  position: relative;
+  height: max-content;
+  padding-bottom: 2px;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #000CB5;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: $thetransition;
+    transition: $thetransition;
+  }
+  &:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+body > header > a:nth-child(2){
+  margin-left: 40px;
+  margin-right: 40px;
   position: relative;
   height: max-content;
   padding-bottom: 2px;
@@ -115,10 +140,10 @@ body > header > a:nth-child(3){
 
 .text{
   font-family: "Open Sans", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   margin-top: 30vh;
   margin-bottom: 30vh;
-  font-size: 4em;
+  font-size: 5em;
   color: #000CB5;
 
 }
@@ -165,7 +190,7 @@ textarea, input{
   height: 50px;
   margin-bottom: 2vh;
   border: #626262 solid 2px;
-  background: transparent;
+  background: #EEEEEE;
 }
 
 body > div > form > label:nth-child(7) > textarea{
@@ -175,9 +200,146 @@ body > div > form > label:nth-child(7) > textarea{
 body > div > form > input[type=submit]{
   width: max-content;
   font-size: 2rem;
+  background: transparent;
 }
 
 .retour{
   margin-left: auto;
   margin-right: 25vw;
+}
+
+
+#promptCompat{
+  display: none;
+}
+#promptCompat.no_dialog{
+  box-shadow: 0 0 5px 2px red;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+dialog{
+  width: max-content;
+  height: max-content;
+  border: none;
+  background: transparent;
+}
+dialog::backdrop{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#projets{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.projet2>img, .projet3>img{
+  width: 15vw;
+  height: auto;
+}
+
+.projet1 img{
+  width: 10vw;
+  height: auto;
+}
+
+.projet2, .projet1, .projet3{
+  padding: 30px;
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  position: relative;
+  vertical-align: middle;
+  &::before,
+  &::after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  transition: color 0.25s;
+
+  &::before,
+  &::after {
+    border: 3px solid transparent;
+    width: 0;
+    height: 0;
+  }
+
+  &::before {
+    top: 0;
+    left: 0;
+  }
+
+  // And this the bottom & left borders (expands left, then up)
+  &::after {
+    bottom: 0;
+    right: 0;
+  }
+
+  // Hover styles
+  &:hover::before,
+  &:hover::after {
+    width: 100%;
+    height: 100%;
+  }
+
+  &:hover::before {
+    border-top-color: #000CB5; // Make borders visible
+    border-right-color: #000CB5;
+    transition:
+            width 0.25s ease-out, // Width expands first
+            height 0.25s ease-out 0.25s; // And then height
+  }
+
+  &:hover::after {
+    border-bottom-color: #000CB5; // Make borders visible
+    border-left-color: #000CB5;
+    transition:
+            border-color 0s ease-out 0.5s, // Wait for ::before to finish before showing border
+            width 0.25s ease-out 0.5s, // And then exanding width
+            height 0.25s ease-out 0.75s; // And finally height
+  }
+
+  // Start ::after in same position as ::before
+  &::after {
+    top: 0;
+    left: 0;
+  }
+
+  // Change colors
+  &:hover::before {
+    border-top-color: #000CB5;
+    border-right-color: #000CB5;
+  }
+
+  &:hover::after {
+    border-bottom-color: #000CB5;
+    border-left-color: #000CB5;
+    transition: // Animate height first, then width
+            height 0.25s ease-out,
+            width 0.25s ease-out 0.25s;
+  }
+
+}
+
+.projet1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projet2txt, .projet1txt, .projet3txt{
+  width: 70%;
+  margin: 50px;
+}
+
+.projetstitle{
+  width: 100%;
+  text-align: center;
 }

@@ -3,28 +3,249 @@
 <head>
     <meta charset="UTF-8">
     <title>Joseph McDonough</title>
-    <link rel="stylesheet" href="css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="http://joseph-mcdonough.com/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="http://joseph-mcdonough.com/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="http://joseph-mcdonough.com/favicon-16x16.png">
     <link rel="manifest" href="http://joseph-mcdonough.com/site.webmanifest">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <header>
     <a href="">A propos</a>
-    <h1>Joseph McDonough</h1>
+    <a href="#">Mon CV</a>
     <a href="contact.php">Me contacter</a>
 </header>
 <div class="bckg1">
     <div class="container">
         <div class="text"></div>
     </div>
-    <a href="#"> >> Mes Projets</a>
+    <a href="#projets"> >> Mes Projets</a>
 </div>
+
+
+<h2 class="projetstitle">Mes Projets</h2>
+<div id="projets">
+
+
+    <dialog id="projet1">
+
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <div class="boutons">
+                <button onclick="$dialog1.close()">X</button>
+                </div>
+                Projet individuel S.1
+
+            </div>
+            <div class="card-body">
+                <h3>Iron-Man et la pollution de l'espace</h3>
+                <p>C'est le premier projet que l'on réalise en arrivant en MMI durant lequel on est introduit aux
+                    techniques et langages du web. Le sujet était ici de réaliser un site traîtant d'un sujet
+                    d'écologie et pollution mis en relation avec super-héros, en mobile first, optimisé pour IPhone
+                    X. J'ai choisi de traîter de la pollution de l'espace avec Iron-Man en rédigeant trois articles
+                    pour expliquer le problème.</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Maquettage</h5>
+                        <p class="btn-group">
+                            <a href="https://xd.adobe.com/view/e8d86386-1d0b-4208-ac5e-e41321b683d7-bd8b/"
+                               class="btn btn-sm btn-outline-secondary">Maquette graphique</a>
+                            <a href="https://docs.google.com/presentation/d/1Z5ZKPruGiTzXLqzK9FkeheTFBFyukx5mdGvIHEPZ6wo/edit?usp=sharinghttps://docs.google.com/presentation/d/1Z5ZKPruGiTzXLqzK9FkeheTFBFyukx5mdGvIHEPZ6wo/edit?usp=sharing"
+                               class="btn btn-sm btn-outline-secondary">Slides de présentation</a>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Projet final</h5>
+                        <p class="btn-group">
+                            <a href="#" class="btn btn-sm btn-outline-secondary">Repository Github</a>
+                            <a href="https://docs.google.com/presentation/d/17eyTb-WO7rROJzupWgMURqppvPT82Jr9Z4isMe9Ezg4/edit?usp=sharing"
+                               class="btn btn-sm btn-outline-secondary">Slides de présentation</a>
+                            <a href="http://pollspatiale.joseph-mcdonough.com/" class="btn btn-sm btn-primary">Projet
+                                final</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dialog>
+    <div onclick="$dialog1.showModal()" class="projet1">
+        <img src="img/pollspatiale.png" alt="iron man"/>
+        <div class="projet1txt">
+            <h3>Iron-Man et la pollution de l'espace</h3>
+            <p>C'est le premier projet que l'on réalise en arrivant en MMI durant lequel on est introduit aux techniques
+                et langages du web. Le sujet était ici de réaliser un site traîtant d'un sujet d'écologie et pollution
+                mis en relation avec super-héros, en mobile first, optimisé pour IPhone X. J'ai choisi de traîter de la
+                pollution de l'espace avec Iron-Man en rédigeant trois articles pour expliquer le problème...</p>
+            <h5>En savoir plus >></h5>
+        </div>
+    </div>
+
+
+    <dialog id="projet2">
+
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <div class="boutons">
+                <button onclick="$dialog2.close()">X</button>
+                </div>
+                Projet collectif S.2
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Univities</h3>
+                        <p>Univities est un réseau social pour étudiants, déstiné à aider les nouveaux étudiants à
+                            rencontrer d'autres étudiants et à se créer un cercle d'amis dans une ville où ils
+                            viennent juste d'arriver. Les rencontres se font autour d'activités, il est possible
+                            pour un utilisateur de proposer des activités et voir quelles sont les activités
+                            disponibles autour de chez eux</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Équipe</h5>
+                        <ul class="small">
+                            <li>Aloïs Bolou | Communicant</li>
+                            <li>Joseph McDonough | Développeur</li>
+                            <li>Léa Messerlin | Designer et chef de projet</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Maquettage</h5>
+                        <p class="btn-group">
+                            <a href="http://univities.joseph-mcdonough.com/maquette/UNIVITIES_LANDING_PAGE_V3.xd"
+                               class="btn btn-sm btn-outline-secondary">Maquette graphique</a>
+                            <a href="https://docs.google.com/presentation/d/19P6S6wtBuHqWcBJevsIQKTRcamlffxbyDeK8qnyMrI4/edit?usp=sharing"
+                               class="btn btn-sm btn-outline-secondary">Slides de présentation</a>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Projet final</h5>
+                        <p class="btn-group">
+                            <a href="#" class="btn btn-sm btn-outline-secondary">Repository Github</a>
+                            <a href="https://docs.google.com/presentation/d/19P6S6wtBuHqWcBJevsIQKTRcamlffxbyDeK8qnyMrI4/edit?usp=sharing"
+                               class="btn btn-sm btn-outline-secondary">Slides de présentation</a>
+                            <a href="http://univities.joseph-mcdonough.com/index.html"
+                               class="btn btn-sm btn-primary">Projet final</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dialog>
+    <div onclick="$dialog2.showModal()" class="projet2">
+        <img src="img/univities.png" alt="univities"/>
+        <div class="projet2txt">
+            <h3>Univities</h3>
+            <p>Univities est un réseau social pour étudiants, déstiné à aider les nouveaux étudiants à rencontrer
+                d'autres
+                étudiants et à se créer un cercle d'amis dans une ville où ils viennent juste d'arriver. Les rencontres
+                se
+                font autour d'activités, il est possible pour un utilisateur de proposer des activités et voir quelles
+                sont
+                les activités disponibles autour de chez eux...</p>
+            <h5>En savoir plus >></h5>
+        </div>
+    </div>
+
+
+    <dialog id="projet3">
+
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <div class="boutons">
+                    <button onclick="$dialog3.close()">X</button>
+                </div>
+                Projet collectif S.3
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Site de JPO virtuelle de l'IUTBM</h3>
+                        <p>Dans le contexte du Covid-19, la journée des portes ouvertes de l'IUT de
+                            Belfort-Montbéliard prévue pour janvier 2021 se verrait probablement annulée. Il s'agit
+                            donc de prévoir cette éventualité et proposer aux futurs étudiants une alternative pour
+                            découvrir l'IUT.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Équipe</h5>
+                        <ul class="small">
+                            <li>Aloïs Bolou | Communicant</li>
+                            <li>Joseph McDonough | Développeur</li>
+                            <li>Léa Messerlin | Designer et chef de projet</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Maquettage</h5>
+                        <p class="btn-group">
+                            <a href="https://xd.adobe.com/view/e3b50d70-2f29-4944-4fd9-a3bdb52383c3-9584/"
+                               class="btn btn-sm btn-outline-secondary">Maquette graphique</a>
+                            <a href="https://docs.google.com/presentation/d/1xVWQFjJ48lYtJ2z_8tb-0lGL6svizasgtiOGcHh7v7Y/edit?usp=sharing"
+                               class="btn btn-sm btn-outline-secondary">Slides de présentation</a>
+                            <a href="http://joseph-mcdonough.com/jpo_iutbm/index.html"
+                               class="btn btn-sm btn-outline-secondary">Maquette HTML + CSS</a>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Projet final</h5>
+                        <p class="btn-group">
+                            <a href="#" class="btn btn-sm btn-outline-secondary">Repository Github</a>
+                            <a href="#" class="btn btn-sm btn-outline-secondary">Slides de présentation</a>
+                            <a href="#" class="btn btn-sm btn-primary">Projet final</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dialog>
+    <div onclick="$dialog3.showModal()" class="projet3">
+        <img src="img/jpo-iutbm.png" alt="jpo-iutbm"/>
+        <div class="projet3txt">
+            <h3>Site de JPO virtuelle de l'IUTBM</h3>
+            <p>Dans le contexte du Covid-19, la journée des portes ouvertes de l'IUT de Belfort-Montbéliard prévue pour
+                janvier 2021 se verrait probablement annulée. Il s'agit donc de prévoir cette éventualité et proposer
+                aux futurs étudiants une alternative pour découvrir l'IUT...</p>
+            <h5>En savoir plus >></h5>
+        </div>
+    </div>
+
+
+</div>
+
 
 <script>
     "use strict";
+
+    var $dialog1 = document.getElementById('projet1');
+    if (!('show' in $dialog1)) {
+        document.getElementById('promptCompat').className = 'no_dialog';
+    }
+    $dialog1.addEventListener('close', function () {
+        console.log('Fermeture. ', this.returnValue);
+    });
+
+    var $dialog2 = document.getElementById('projet2');
+    if (!('show' in $dialog2)) {
+        document.getElementById('promptCompat').className = 'no_dialog';
+    }
+    $dialog2.addEventListener('close', function () {
+        console.log('Fermeture. ', this.returnValue);
+    });
+
+    var $dialog3 = document.getElementById('projet3');
+    if (!('show' in $dialog3)) {
+        document.getElementById('promptCompat').className = 'no_dialog';
+    }
+    $dialog3.addEventListener('close', function () {
+        console.log('Fermeture. ', this.returnValue);
+    });
 
     // ——————————————————————————————————————————————————
     // TextScramble
@@ -124,9 +345,9 @@
 
     $(window).scroll(function () {
         if ($(window).scrollTop() >= 400) {
-            $('header').css('background','#EEEEEE');
+            $('header').css('background', '#FFFFFF');
         } else {
-            $('header').css('background','transparent');
+            $('header').css('background', 'transparent');
         }
     });
 </script>

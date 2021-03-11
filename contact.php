@@ -14,7 +14,7 @@
 <body>
 <header>
     <a href="">A propos</a>
-    <h1>Joseph McDonough</h1>
+    <a href="#">Mon CV</a>
     <a href="contact.php">Me contacter</a>
 </header>
 <div class="bckg1">
