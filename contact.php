@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Joseph McDonough</title>
-    <link rel="stylesheet" href="css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="http://joseph-mcdonough.com/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="http://joseph-mcdonough.com/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="http://joseph-mcdonough.com/favicon-16x16.png">
     <link rel="manifest" href="http://joseph-mcdonough.com/site.webmanifest">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
